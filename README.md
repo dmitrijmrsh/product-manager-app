@@ -1,1 +1,2 @@
-# simple-web-app
+# product-manager-app
+Небольшое приложение "Менеджер продуктов", написанное с использованием Spring Boot и паттерна MVC.
