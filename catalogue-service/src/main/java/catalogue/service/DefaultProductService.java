@@ -1,14 +1,13 @@
-package manager.service;
+package catalogue.service;
 
 import lombok.RequiredArgsConstructor;
-import manager.entity.Product;
-import manager.repository.ProductRepository;
+import catalogue.entity.Product;
+import catalogue.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
-import java.util.function.Consumer;
 
 @Service
 @RequiredArgsConstructor

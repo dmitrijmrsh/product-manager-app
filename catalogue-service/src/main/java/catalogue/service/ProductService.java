@@ -1,6 +1,6 @@
-package manager.service;
+package catalogue.service;
 
-import manager.entity.Product;
+import catalogue.entity.Product;
 
 import java.util.List;
 import java.util.Optional;

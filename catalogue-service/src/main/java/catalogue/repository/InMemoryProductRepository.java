@@ -1,6 +1,6 @@
-package manager.repository;
+package catalogue.repository;
 
-import manager.entity.Product;
+import catalogue.entity.Product;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;

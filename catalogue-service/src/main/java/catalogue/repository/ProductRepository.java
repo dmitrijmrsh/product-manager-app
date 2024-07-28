@@ -1,6 +1,6 @@
-package manager.repository;
+package catalogue.repository;
 
-import manager.entity.Product;
+import catalogue.entity.Product;
 
 import java.util.List;
 import java.util.Optional;
