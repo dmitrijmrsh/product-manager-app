@@ -27,7 +27,7 @@ public class ProductController {
 
     @ModelAttribute("product")
     public Product product(@PathVariable("productId") int productId) {
-        return productsRestClient.findById(productId)
+        return productsRestClient.findProduct(productId)
                 .orElseThrow(() -> new NoSuchElementException("catalogue.errors.product.not_found"));
     }
 

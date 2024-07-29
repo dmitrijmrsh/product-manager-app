@@ -7,11 +7,11 @@ import java.util.Optional;
 
 public interface ProductService {
 
-    List<Product> findAllProducts();
+    Iterable<Product> findAllProducts(String filter);
 
     Product createProduct(String title, String details);
 
-    Optional<Product> findById(Integer productId);
+    Optional<Product> findProduct(Integer productId);
 
     void updateProduct(Integer productId, String title, String details);
 
